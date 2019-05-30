@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body class="body-main">
+    <div class="title-container">
+      <div class="title">
+      </div>
+      
+    </div>
+	<div class= "description">
+	Виконала студентка 1-го курсу маг. 
+	Васькві Олена
+	</div>
+    <div class="details-container">
+      <div class="description">
+        Натисніть на екран.<br><br>
+        <select id="select-algo" class="select-algo" name="algo">
+          <option value="1">Алгоритм Пріма</option>
+          <option value="2">Крускала</option>
+        </select>
+        <br>
+        <button id="btn-compute" class="btn-main" type="button" name="compute">Стоврити</button>
+        <button id="btn-reset" class="btn-main" type="button" name="reset">Перезавантажити</button>
+      </div>
+    </div>
+
+    <canvas id="canvas" class="main-canvas" resize></canvas>
+
+    <script type="text/javascript" src="js-min/constants.js" canvas="canvas"></script>
+    <script type="text/javascript" src="js-min/vertex.js" canvas="canvas"></script>
+    <script type="text/javascript" src="js-min/edge.js" canvas="canvas"></script>
+    <script type="text/javascript" src="js-min/minheap.js" canvas="canvas"></script>
+    <script type="text/javascript" src="js-min/unionfind.js" canvas="canvas"></script>
+    <script type="text/paperscript" src="js-min/script.js" canvas="canvas"></script>
+  </body>
+</html>
