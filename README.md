@@ -6,7 +6,8 @@ install NodeJS
 
 
 In the terminal:
-npm install 
+
 ```
+npm install 
 npm start
 ```
